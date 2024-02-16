@@ -3,5 +3,7 @@ def check_Text(fullText, serchString):
         print(f"The element contains the {serchString}.")
     else:
         print(f"The element does not contain the search text: {serchString}.")
+
+
 def print_Text(text):
-    print(f"The element contains the {text}")
+    print(f"The element contains the: {text}")
